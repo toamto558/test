@@ -1,0 +1,208 @@
+@charset "utf-8";
+*{margin: 0; padding: 0;}
+a{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+li{list-style: none;}
+img{
+    display: block;
+}
+#wrap{
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    display: block;
+}
+
+.logo img{width: 50%; height: 100px;
+transform: translateX(50%);}
+.logo{
+    width: 100%;
+    height: 100px;
+    padding: 20px 0;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.gnb{
+    padding-left: 400px;
+    text-align: center;
+    line-height: 40px;
+    display: flex;
+    font-size: 0.8rem;
+    background: #338e94;
+    color: #fff;
+}
+.gnb li{width: 100px;}
+
+.box {background: #cccccc;
+height: 40px;
+padding-left: 27px;}
+
+#slide img{
+    width: 100%;
+    height: 350px
+}
+.text{
+    margin-top: 44px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.text section{
+    line-height: 40px;
+    text-align: center;
+    width: 300px;
+    height: 40px;
+    border: 3px #4dcdd6 solid;
+}
+
+
+.textbox{
+    margin-top: 44px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.textbox section{
+    width: 10%;
+    line-height: 100px;
+    background: #4dcdd6;
+    text-align: center;
+    color: #fff;
+}
+
+
+#best{
+    margin-top: 50px;
+    text-align: center;
+}
+.bestbox{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    width: 100%;
+}
+.bestbox img{
+    width: 75%;
+
+}
+#ad{width: 100%;
+    margin-top: 50px;
+}
+.adimg{width: 100%;
+display: flex;
+justify-content: space-around;}
+.adimg a{width: 40%;}
+.adimg img{width: 100%;
+
+}
+#protein{
+    margin-top: 50px;
+}
+.protein{
+    display: flex;
+    justify-content: space-around;
+}
+.protein a{
+    text-align: center;
+    line-height: 60px;
+    font-size: larger;
+    
+}
+.protein img{
+    width: 100%;
+    height: 300px;}
+
+footer{
+    margin-top: 100px;
+    background: #cccccc;
+}
+.f_logo{display: flex;
+    justify-content: space-around;
+}
+
+.f_logo img{width: 100%;
+    margin-top: 50px;
+}
+.f_logo{
+    padding-left: 100px;
+}
+.f_logo li:nth-child(3) img{
+    height: 100px;
+}
+.f_logo li{padding-bottom: 30px;}
+
+@media screen and (max-width:765px){
+    #wrap{width: 100%}
+    .box{width: 100%;
+    padding: 0 0;}
+    .logo a{width: 100px;}
+    .logo img{width: 300px;
+    transform: translateX(80%);}
+    .logo{
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0px 0px;
+    width: 100%;
+    }
+    
+    nav{display: none;}
+
+    #slide img{width: 100%;}
+    #slide{padding-left: 0;}
+
+    .text{display: block;
+    width: 100%;
+    margin: 0 0;}
+    .text section{margin-top: 30px;
+    margin-left: 220px;}
+    
+    .textbox{
+       flex-wrap: wrap;
+    }
+    .textbox section{
+        margin-top: 20px;
+        width: 40%;
+    }
+
+
+    /* #best{display: none;} */
+    
+    
+    .protein img{
+        width: 150px;
+        height: 160px;
+        position: relative; 
+        padding: 0 0;
+        left: 120px;
+    }
+    .protein{margin: 0 0;}
+    .protein a{width: 40%;
+       
+    }
+  
+
+    .protein a:nth-child(3){
+        display: none;
+    }
+    
+    
+    .f_logo{width: 100%; padding: 0 0 0 0;}
+    .f_logo a{width: 25%;}
+    .f_logo img{width: 100px; padding:0 0 0 0;
+    margin-top: 40px;}
+    .f_logo li{width: 20%;}
+   
+  
+
+    
+   
+    
+    
+}
